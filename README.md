@@ -1,1 +1,3 @@
 # SP500-ML-Model
+
+POLISH PROJECT
