@@ -8,8 +8,9 @@
 2. Clean and visualize the DataFrame
     - Remove extraneous columns
     - Remove particularly old data; anything older than 1990 was be removed.
-    - Visualize data for the S&P 500 index  
-![image.png](attachment:9038b028-23f6-4bdb-9a0b-632e8f33d610.png)
+    - Visualize data for the S&P 500 index    
+![image](https://github.com/R-J2000/SP500-ML-Model/assets/136933973/6e94de5b-738e-46fa-b12b-ecb6a8ed0af1)
+
 3. Set Target, which is an additional column indicating whether tomorrow's price went up (Target = 1) or not (Target = 0). This can be done by comparing the index price of a particular row $n$ with the index price corresponding to row $(n+1)$.
 4. Initialize the RandomForestClassifier (after importing it) with tentative inputs. Partition dataset into training and testing dataset.
 5. Establish predictors. Use the predictors and target values to get a model fit. 
